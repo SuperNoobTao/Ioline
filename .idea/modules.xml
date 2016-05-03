@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ioline.iml" filepath="$PROJECT_DIR$/Ioline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library_alphaview/library_alphaview.iml" filepath="$PROJECT_DIR$/library_alphaview/library_alphaview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ormlite-android-4.48/ormlite-android-4.48.iml" filepath="$PROJECT_DIR$/ormlite-android-4.48/ormlite-android-4.48.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ormlite-core-4.48/ormlite-core-4.48.iml" filepath="$PROJECT_DIR$/ormlite-core-4.48/ormlite-core-4.48.iml" />
+    </modules>
+  </component>
+</project>

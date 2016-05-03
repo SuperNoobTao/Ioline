@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zucc.edu.cn.util.RefreshableView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refreshable_view"
+    style="@style/MatchMatch">
+    <ListView
+        android:id="@+id/tab01_lv_dan"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    </ListView>
+
+
+</zucc.edu.cn.util.RefreshableView>

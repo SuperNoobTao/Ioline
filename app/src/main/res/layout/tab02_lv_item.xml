@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#00000000"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"
+                android:background="@drawable/touxian"
+                android:id="@+id/dan_lv_touxiang_pic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lv_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="8dp">
+            <!--第一行     -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名字名字"
+                    android:textSize="15sp"
+                    android:maxLength="10"
+                    android:singleLine="true"
+                    android:id="@+id/dan_lv_name" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="时间"
+                    android:textSize="15sp"
+                    android:gravity="right"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true"
+                    android:id="@+id/dan_lv_time" />
+
+
+            </LinearLayout>
+            <!--第二行-->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginTop="10dp"
+                >
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/gender_symbol_girl"
+                    android:id="@+id/dan_lv_gender_pic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="浙江大学城市学院"
+                    android:textSize="15sp"
+                    android:layout_marginRight="10dip"
+                    android:singleLine="true"
+                    android:id="@+id/dan_lv_school"
+                    android:layout_marginLeft="10dp"/>
+            </LinearLayout>
+
+
+            <!--第三行     -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="西门鸭血粉丝汤，一勺辣椒。谢谢"
+                    android:textSize="15sp"
+                    android:id="@+id/dan_lv_content"
+                    android:maxLines="2"
+                    android:maxEms="140"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="0条评论"
+                    android:textSize="15sp"
+                    android:layout_marginRight="10dip"
+                    android:id="@+id/dan_lv_type" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></LinearLayout>
+    <!--第四行     -->
+
+
+</LinearLayout>

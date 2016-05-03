@@ -1,0 +1,48 @@
+[
+  {
+    "type": "location",
+    "name": "浙江大学城市学院 南校区",
+    "value": 0
+  },
+  {
+    "type": "location",
+    "name": "浙江大学城市学院 北校区",
+    "value": 0
+  },
+  {
+    "type": "location",
+    "name": "浙江大学城市学院 南校区 明德楼",
+    "value": 0
+  },
+  {
+    "type": "location",
+    "name": "浙江大学城市学院 南校区 精诚楼",
+    "value": 0
+  },
+  {
+    "type": "location",
+    "name": "浙江大学城市学院 南校区 慕闲楼",
+    "value": 0
+  },
+  {
+    "type": "location",
+    "name": "浙江大学城市学院 南校区 致远楼",
+    "value": 0
+  },
+
+  {
+    "type": "代餐",
+    "name": "浙江大学城市学院 南校区 致远楼",
+    "value": 0
+  },
+  {
+    "type": "跑腿",
+    "name": "浙江大学城市学院 南校区 致远楼",
+    "value": 0
+  },
+  {
+    "type": "教学",
+    "name": "浙江大学城市学院 南校区 致远楼",
+    "value": 0
+  }
+]

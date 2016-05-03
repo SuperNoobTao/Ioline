@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#ffffff">
+
+
+
+<LinearLayout
+    android:id="@+id/id_tab_weixin"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <ImageButton
+        android:id="@+id/id_tab_weixin_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:src="@drawable/tab_weixin_normal"
+        android:background="#00000000"/>
+    <TextView
+        android:text="@string/qiangdan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#63b8ff"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_frd"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_frd_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/tab_find_frd_normal"
+            android:background="#00000000"/>
+        <TextView
+            android:text="@string/friends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#63b8ff"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_tab_address"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_address_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/tab_address_normal"
+            android:background="#00000000"/>
+        <TextView
+            android:text="@string/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#63b8ff"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/id_tab_settings"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/id_tab_settings_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:src="@drawable/tab_settings_normal"
+            android:background="#00000000"/>
+        <TextView
+            android:text="@string/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#63b8ff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

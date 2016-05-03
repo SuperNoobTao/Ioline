@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/quesiont_ll"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/title"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/fedback_backbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/title"
+                android:src="@drawable/ic_action_back"
+                android:clickable="false"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="3dp"
+                android:text="@string/back"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:clickable="false"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <zucc.edu.cn.util.ControlNumEditText
+        android:id="@+id/fedback_et"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:gravity="top"
+        android:textColor="#000000"
+        android:layout_below="@+id/quesiont_ll"
+        android:inputType="textMultiLine"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edit_frame_color"
+        android:layout_marginTop="10dp"
+        android:hint="您好，请问你对我们的服务有什么建议呢？"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:layout_alignBottom="@id/fedback_et"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="120"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="反馈"
+        android:id="@+id/fedback_button"
+        android:layout_below="@+id/fedback_et"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/selector_drawable_registerbut"
+        />
+
+</RelativeLayout>

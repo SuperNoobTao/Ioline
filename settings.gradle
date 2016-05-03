@@ -1,0 +1,1 @@
+include ':app', ':library_alphaview', ':ormlite-android-4.48', ':ormlite-core-4.48'

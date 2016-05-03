@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="起始地址"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+        <Spinner
+            android:id="@+id/ro_start_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="当前位置"
+            android:maxLength="15"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="送达地址"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+        <Spinner
+            android:id="@+id/ro_location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="请填写您的送达地址"
+            android:maxLength="15"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

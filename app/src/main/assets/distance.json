@@ -1,0 +1,27 @@
+[
+  {
+    "type": "distance",
+    "name": "100米",
+    "value": 100
+  },
+  {
+    "type": "distance",
+    "name": "500米",
+    "value": 500
+  },
+  {
+    "type": "distance",
+    "name": "1公里",
+    "value": 1000
+  },
+  {
+    "type": "distance",
+    "name": "5公里",
+    "value": 5000
+  },
+  {
+    "type": "distance",
+    "name": "10公里",
+    "value": 10000
+  }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <info.hoang8f.android.segmented.SegmentedGroup
+        android:id="@+id/segmented_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        segmentedgroup:sc_border_width="1dp"
+        segmentedgroup:sc_corner_radius="5dp"
+        segmentedgroup:sc_tint_color="@color/title"
+        >
+        <RadioButton
+            android:id="@+id/button_d1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跑腿"
+            style="@style/RadioButton" />
+
+        <RadioButton
+            android:id="@+id/button_d2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="租赁"
+            style="@style/RadioButton" />
+
+        <RadioButton
+            android:id="@+id/button_d3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            style="@style/RadioButton" />
+    </info.hoang8f.android.segmented.SegmentedGroup>
+</LinearLayout>

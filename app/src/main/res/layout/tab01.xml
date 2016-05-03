@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/top_relative"
+        android:layout_width="fill_parent"
+        android:background="@color/title"
+        android:layout_height="50.0dip" >
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10.0dip"
+            android:singleLine="true"
+            android:text="@string/tab01"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#00ffffff">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <!--<Button-->
+                <!--android:id="@+id/tab01_releasebut"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/btn_type02"-->
+                <!--android:text="发布跑腿"-->
+                <!--/>-->
+            <!--<ImageButton-->
+            <!--android:id="@+id/tab01_releasebut"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:layout_marginLeft="5dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:background="@drawable/btn_type02"-->
+                <!--android:scaleType="center"/>-->
+            <info.hoang8f.widget.FButton
+                android:id="@+id/tab01_releasebut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|top"
+                android:layout_margin="10dp"
+                android:minHeight="80dp"
+                android:minWidth="250dp"
+                android:text="@string/release_order_activity"
+                android:textColor="@android:color/white"
+                fbutton:buttonColor="@color/fbutton_color_pomegranate"
+                fbutton:shadowEnabled="true"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <!--<ImageButton-->
+                <!--android:id="@+id/tab01_search"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="5dp"-->
+                <!--android:background="@drawable/btn_type03"-->
+                <!--/>-->
+            <info.hoang8f.widget.FButton
+                android:id="@+id/tab01_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|top"
+                android:layout_margin="10dp"
+                android:minHeight="80dp"
+                android:minWidth="250dp"
+                android:text="@string/search_order"
+                android:textColor="@android:color/white"
+                fbutton:buttonColor="@color/fbutton_color_orange"
+                fbutton:shadowEnabled="true" />
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center_horizontal"
+            android:textColor="@color/font_selector"
+            android:textSize="18dp"
+            android:text="最新任务"
+            />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColor="@color/font_selector"
+            android:text="我的发布" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:textColor="@color/font_selector"
+            android:text="我的抢单" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line"
+        ></LinearLayout>
+    <FrameLayout
+        android:id="@+id/tab01_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+</LinearLayout>

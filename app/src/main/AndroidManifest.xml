@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="zucc.edu.cn.ioline">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/logo"
+        tools:replace ="android:icon">
+        <activity
+            android:name=".Main_Activity"
+            android:label="@string/app_name" >
+
+        </activity>
+
+
+        <activity android:name="zucc.edu.cn.ioline.regDetailedActivity"
+            android:label="@string/reg_detail_activity">
+        </activity>
+        <activity android:name=".OrderMsgActivity"
+            android:label="详细信息"/>
+        <activity android:name=".MyReleaseMsgActivity"/>
+        <activity android:name=".MyGrabMsgActivity" />
+        <activity android:name=".ReleaseOrderActivity"/>
+        <activity android:name=".IonlineStartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MyChatMsgActivity"></activity>
+        <activity android:name=".MyReleaseActivity"></activity>
+        <activity android:name=".MyGrabActivity"></activity>
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".QuestionItemActivity"></activity>
+        <activity android:name=".AddQuestion"></activity>
+        <activity android:name=".fedbackActivity"></activity>
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".ComplaintActivity"></activity>
+        <activity android:name=".UpdatePwd"></activity>
+        <activity android:name=".GuidanceActivity"></activity>
+
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

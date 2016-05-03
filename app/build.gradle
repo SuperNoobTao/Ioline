@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "zucc.edu.cn.ioline"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions{
+        encoding "UTF-8"
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'cn.bingoogolapple:bga-refreshlayout:1.1.0@aar'
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    compile 'cn.bingoogolapple:bga-adapter:1.0.7@aar'
+    compile 'cn.bingoogolapple:bga-indicator:1.0.0@aar'
+    compile 'cn.pedant.sweetalert:library:1.3'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'com.nineoldandroids:library:2.4.0'
+//    compile 'me.gujun.android.taggroup:library:1.5'
+    compile project(':library_alphaview')
+    compile 'info.hoang8f:android-segmented:1.0.6'
+    compile 'com.github.arimorty:floatingsearchview:1.1.2'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile 'info.hoang8f:fbutton:1.0.5'
+
+    compile project(':ormlite-android-4.48')
+    compile project(':ormlite-core-4.48')
+}
+
